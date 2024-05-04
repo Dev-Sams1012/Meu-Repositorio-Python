@@ -16,6 +16,7 @@ def frente_de_caixa():
     i = 1
     valor = 1
     total_da_compra = []
+    
     while valor != 0:
            valor = float(input("\nDigite o valor do produto: "))
            if valor == 0:
@@ -25,14 +26,21 @@ def frente_de_caixa():
            print(f"produto {i}: R$ {valor} * {quantidade} -> R$ {valor_total}")
            total_da_compra.append(valor_total)
            i += 1
+           
     total = sum(total_da_compra)
     print(f"\nTotal: R$ {total}")
     
     dinheiro = float(input("Dinheiro:  "))
     troco = dinheiro - total
+    
+    while troco < 0:
+        print("\nVocê não pagou tudo.")
+        dinheiro = float(input("Dinheiro:  "))
+        troco = dinheiro - total
+        
     troco = round(troco,2)
     print(f"\nTroco: R$ {troco}")
-
+#------------------------------------------#
 j = 1
 while j == 1:
     frente_de_caixa()
