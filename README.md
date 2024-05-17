@@ -11,7 +11,7 @@ Este repositório reúne diversos projetos e soluções para atividades em Pytho
   - Descrição: Realiza operações matemáticas (+, -, *, /, ^, √) de forma interativa até quando desejar. Uma ferramenta prática para cálculos rápidos e precisos.
 
 **3. Comparação de Caracteres em Strings (Usando Listas):**
-  - Descrição: Compara duas strings e descubra se elas compartilham caracteres em comum. Utilize listas para armazenar e analisar os caracteres de forma eficiente.
+  - Descrição: Visa eliminar repetições desnecessárias em sequências de "instruções", como pontos cardeais ou comandos em um jogo..
 
 **4. Data com Mês por Extenso:**
   - Descrição: Transforma datas no formato "dd/mm/aaaa" para o formato com o mês por extenso, expressando datas de forma mais clara e compreensível.
@@ -38,7 +38,7 @@ Este repositório reúne diversos projetos e soluções para atividades em Pytho
   - Descrição: Calcula o montante final de um investimento com juros compostos, entendendo o impacto do tempo e da taxa de juros no crescimento exponencial do seu capital.
 
 **12. Login e Senha:**
-  - Descrição: Cria um sistema de login e senha para proteger seus dados, aprendendo sobre autenticação de usuários e segurança na programação.
+  - Descrição: Cria uma simulação de um sistema de login e senha, possuindo um sistema básico de comparação de dados.
 
 **13. Palíndromo:**
   - Descrição: Verifica se uma palavra ou frase é um palíndromo (lê-se igual de trás para frente), explorando conceitos de manipulação de strings e testes condicionais.
