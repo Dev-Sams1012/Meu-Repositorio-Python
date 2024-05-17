@@ -1,4 +1,4 @@
-# Meu Repositório Python
+# Meu Repositório Python 🐍
 
 Este repositório reúne diversos projetos e soluções para atividades em Python!
 
